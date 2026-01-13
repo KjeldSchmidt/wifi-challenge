@@ -46,9 +46,13 @@ const char* portalPage = R"(
                 <td style="padding: 8px 0;"><code>Codefreeze_Find_Me</code></td>
                 <td>Password: on the device</td>
             </tr>
-            <tr>
+            <tr style="border-bottom: 1px solid #0f3460;">
                 <td style="padding: 8px 0;"><code>Codefreeze_MAC_Filtered</code></td>
                 <td>Password: <code>letmein123</code> + MAC Address Filtering</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px 0;"><code>(Hidden)</code></td>
+                <td>Open - deauth client to reveal SSID</td>
             </tr>
         </table>
     </div>
